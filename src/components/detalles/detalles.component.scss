@@ -121,3 +121,79 @@ button {
   -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+//#region Medias Query
+
+@media (min-width: 900px) and (max-width: 1400px) {
+}
+
+// Cuando la pantalla es menor a 900
+@media only screen and (max-width: 935px) {
+  h2 {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  h2::after {
+    content: attr(id);
+    color: white;
+    text-align: center;
+    align-content: center;
+    float: center;
+    margin: auto;
+    vertical-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #851848;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    left: calc(100% - 50%);
+  }
+
+  .contenedorPrincipal {
+    padding-top: 3em;
+  }
+
+  .datos {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 344px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    max-width: 18em;
+    min-height: 20em;
+  }
+  .textContainer {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    height: 126px;
+  }
+}
+
+// /* Escritorio extra grande */
+// @media only screen and (min-width: 1200px) {
+// }
+// /* Escritorio grande */
+// @media only screen and (min-width: 992px) and (max-width: 1199px) {
+// }
+
+// /* Escritorio pequeño / tablet */
+// @media only screen and (min-width: 768px) and (max-width: 991px) {
+// }
+
+// /* Tablets y phablets */
+// @media only screen and (min-width: 576px) and (max-width: 767px) {
+// }
+
+// /* Teléfonos */
+// @media only screen and (max-width: 575px) {
+// }
+
+//#endregion Medias Query
