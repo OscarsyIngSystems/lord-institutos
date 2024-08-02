@@ -13,5 +13,6 @@ export class DetallesComponent {
   constructor() {
     this.data = JSON.parse(localStorage.getItem('instSelect')!);
     console.log(this.data, 'detalles del instituto');
+    window.scrollTo(0, 0);
   }
 }

@@ -13,6 +13,7 @@ export class DirectorioComponent {
   institutos;
   constructor() {
     this.institutos = registros;
+    window.scrollTo(0, 0);
   }
 
   verDetalle(institutoSeleccionado: any) {
