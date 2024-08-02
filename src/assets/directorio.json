@@ -19,32 +19,131 @@
       "proceso": "* Llamar para solicitar cita."
     },
     {
-      "id": 1,
-      "nombre": "Juan",
-      "descipcion": "Un hospital psiquiátrico u hospital siquiátrico es un establecimiento dedicado al diagnóstico y tratamiento de enfermedades psiquiátricas que cuenta con internamiento ",
-      "direccion": "Calle 123",
+      "id": 3,
+      "nombre": "Hospital Psiquiátrico Fray Bernardino Álvarez",
+      "descipcion": "Servicios de Atención Psiquiátrica",
+      "direccion": "Anillo Periférico 2767, Edificio 5 Planta Baja Col. San Jerónimo Lídice, Alcaldía La Magdalena Contreras 10200 Ciudad de México",
       "imagen": "imagen1.jpg",
-      "contacto": "",
-      "proceso": ""
+      "contacto": "55 5062 1600 ext.52636 Correo: titular_sap@salud.gob.mx",
+      "proceso": "* Acudir directamente en las instalaciones para solicitar cita. * También puede llamar para solicitar cita."
     },
     {
-      "id": 2,
-      "nombre": "María",
-      "descipcion": "Un hospital psiquiátrico u hospital siquiátrico es un establecimiento dedicado al diagnóstico y tratamiento de enfermedades psiquiátricas que cuenta con internamiento ",
-      "direccion": "Avenida 456",
-      "ubicacion": "Ciudad B",
+      "id": 4,
+      "nombre": "UMCAP Hospital de Psiquiatria Morelos IMSS",
+      "descipcion": "Servicios de Atención Psiquiátrica",
+      "direccion": "DM Nacional, San Pedro el Chico, Gustavo A. Madero, 07450 Ciudad de México, CDMX",
+
       "imagen": "imagen2.jpg",
-      "contacto": "",
-      "proceso": ""
+      "contacto": "55 5781 7561",
+      "proceso": "* Acudir directamente en las instalaciones para solicitar cita. * También puede llamar para solicitar cita. * Puede instaar la aplicación del IMSS en el celular y solicitar la cita a través de la misma."
     },
     {
-      "id": 2,
-      "nombre": "María",
-      "descipcion": "Un hospital psiquiátrico u hospital siquiátrico es un establecimiento dedicado al diagnóstico y tratamiento de enfermedades psiquiátricas que cuenta con internamiento ",
-      "direccion": "Avenida 456",
+      "id": 5,
+      "nombre": "Centro Comunitario de Salud Mental y Adicciones Cuauhtemoc (CECOSAMA Cuauhtémoc)",
+      "descipcion": "Control de adicciones",
+      "direccion": "C. Dr. Enrique González Martínez 131, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
       "imagen": "imagen2.jpg",
-      "contacto": "",
-      "proceso": ""
+      "contacto": "5062 1600 ext. 50212",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 6,
+      "nombre": "Centro Comunitario de Salud Mental y Adicciones (CECOSAMA Zacatenco)",
+      "descipcion": "Control de adicciones",
+      "direccion": "Huánuco 323, Residencial Zacatenco, Gustavo A. Madero, 07369 Ciudad de México, CDMX",
+      "imagen": "imagen2.jpg",
+      "contacto": "55 6392 4679",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 7,
+      "nombre": "Instituto Nacional de Psiquiatría Ramón de la Fuente Muñiz",
+      "descipcion": "Servicios de Atención Psiquiátrica",
+      "direccion": "Calz México-Xochimilco 101, Colonia, Huipulco, Tlalpan, 14370 Ciudad de México, CDMX",
+      "imagen": "imagen2.jpg",
+      "contacto": "55 4160 5000",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 8,
+      "nombre": "ISSSTE Clínica de Especialidades Neuropsiquiatría",
+      "descipcion": "Servicios de Atención Psiquiátrica",
+      "direccion": "C. Guerrero 346, Tlatelolco, Cuauhtémoc, 06900 Ciudad de México, CDMX",
+      "imagen": "imagen2.jpg",
+      "contacto": "55 5597 9759",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 9,
+      "nombre": "Centro Comunitario de Salud Mental y Adicciones Cuauhtemoc (CECOSAMA Cuauhtémoc)",
+      "descipcion": "Control de adicciones",
+      "direccion": "C. Dr. Enrique González Martínez 131, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
+      "imagen": "imagen2.jpg",
+      "contacto": "5062 1600 ext. 50212",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 10,
+      "nombre": "Clínica de la ansiedad y salud mental",
+      "descipcion": "Ansiedad y Psicología",
+      "direccion": "Chosica 730, Lindavista, Gustavo A. Madero, 07300 Ciudad de México, CDMX",
+      "imagen": "imagen2.jpg",
+      "contacto": "56 1170 8117 55 2957 8749",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 11,
+      "nombre": "CEMEPI Terapias Psicológicas Sede Lindavista",
+      "descipcion": "Atención Psicológica",
+      "direccion": "Managua 691, Lindavista, Gustavo A. Madero, 07300 Ciudad de México, CDMX",
+      "imagen": "imagen2.jpg",
+      "contacto": "55 9506 9766",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 12,
+      "nombre": "Centro De Tanatologia Y Terapia De Duelo S.C.",
+      "descipcion": "Tanatología y Atención Psicológica",
+      "direccion": "Av. Montevideo 635, San Bartolo Atepehuacan, Gustavo A. Madero, 07730 Ciudad de México, CDMX",
+      "imagen": "imagen2.jpg",
+      "contacto": "55 5119 4106",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 13,
+      "nombre": "Clínica Broa- Especialistas en ansiedad y depresión",
+      "descipcion": "Ansiedad y Depresión",
+      "direccion": "Eugenia 13, Nápoles, Benito Juárez, 03840 Ciudad de México, CDMX",
+      "imagen": "imagen2.jpg",
+      "contacto": "55 7558 5944",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 14,
+      "nombre": "ADIVAC",
+      "descipcion": "Violencia sexual",
+      "direccion": "Salvador Díaz Mirón 140 Santa María La Ribera, Cuauhtémoc, Ciudad de México, DF, México",
+      "imagen": "imagen2.jpg",
+      "contacto": "5682 7969, 5547 8639 Correo: adivac@adivac.org",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 15,
+      "nombre": "Asociación Mexicana de Suicidología",
+      "descipcion": "Atención psicológica contra el suicidio",
+      "direccion": "En línea",
+      "imagen": "imagen2.jpg",
+      "contacto": "55 525 98121 , 55 5622 2288 , 55 553 355 33 ,Correo: info@suicidologia.org.mx",
+      "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 16,
+      "nombre": "Línea Nacional Diversidad Segura",
+      "descipcion": "El Consejo Cuidadano ofrece apoyo psicológico y jurídico a la comunidad LGBTTTI+ en toda la república. Dará atención psicológica, prevención del suicidio, terapias a distancia, orientación jurídica ante discriminación o trámites legales.",
+      "direccion": "Azcapotzalco: Morelos y Pavón 33, Azcapotzalco Centro, Alcaldía Azcapotzalco, CP 02000, Ciudad de México. Cuauhtemoc:    54 Amberes, Juárez, Cuauhtémoc Mayoralty, CP 06600, Ciudad de México. Iztapalapa: Av. Luis Hidalgo Monroy 100, Alcaldía Iztapalapa , CP 09000, Ciudad de México Benito Juárez: Tintoreto 39, Santa María Nonoalco, Benito Juárez Alcaldía, CP 03700, Ciudad de México",
+      "imagen": "imagen2.jpg",
+      "contacto": "Línea de Seguridad y Chat de Confianza: 55 · 5533 · 5533 Línea Nacional vs la Trata de Personas: 800 · 5533 · 000 Línea Nacional Diversidad Segura: 800 · 000 · 5428 Correo:  contacto @ consejociudadanomx . Org",
+      "proceso": "* Llamar para solicitar cita."
     }
   ]
 }

@@ -1,13 +1,120 @@
+.titulo {
+  background-color: red;
+}
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: max-content;
   gap: 2em;
 }
 
+.textContainer {
+  // min-height: 10em !important;
+  // height: 10em !important;
+  align-content: center;
+}
+
+.card-title {
+  margin-top: 0.5em;
+}
+
 .card {
   background-color: white;
-  max-width: 30em;
+  max-width: 26em;
+  min-height: 20em;
+  opacity: 1;
+
+  transition: background-color 0.5s ease 0s;
+  height: 20em;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.contener {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #d5538c;
+  border: none;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: #851848;
+  opacity: 1 !important;
+  .animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+}
+
+.buttons {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btnfos {
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  // margin: 0 auto 2em;
+  border-radius: 5px;
+  position: relative;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.btnfos-1 {
+  background: #d5538c;
+  color: white;
+}
+
+.btnfos-1:hover {
+  color: #851848;
+}
+
+.btnfos-1 svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+}
+.btnfos-1 rect {
+  fill: none;
+  stroke: #851848;
+  stroke-width: 1;
+  stroke-dasharray: 422, 0;
+}
+
+.btnfos-1:hover {
+  background: rgba(225, 51, 45, 0);
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+.btnfos-1:hover rect {
+  stroke-width: 5;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 //#region Medias Query
@@ -16,6 +123,23 @@
 @media only screen and (max-width: 900px) {
   .wrapper {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 400px) {
+  .btnfos {
+    display: inline-block;
+  }
+  .btnfos:nth-of-type(even) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 600px) {
+  .btnfos:nth-of-type(even) {
+    margin-right: 2.5em;
+  }
+  .btnfos:nth-of-type(5) {
+    margin-right: 0;
   }
 }
 

@@ -1,23 +1,40 @@
-<section>Directorio de Instituciones</section>
-<section id="container-cards">
+<section class="px-2 py-2 d-flex justify-content-center">
   <div class="wrapper">
     @for (instituto of institutos; track $index) {
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title text-center">{{ instituto.nombre }}</h5>
-        <p class="card-text">
-          {{ instituto.descipcion }}
-        </p>
-        <div class="d-flex justify-content-center">
-          <a
-            (click)="verDetalle(instituto)"
-            [routerLink]="['/detalles']"
-            class="btn btn-primary"
-            >Ver Detalles</a
-          >
+
+    <div class="contener card animate__animated animate__pulse">
+      <div class="row d-flex justify-content-center h-100 align-items-center">
+        <div class="row">
+          <h5 class="card-title text-center text-bold">
+            {{ instituto.nombre }}
+          </h5>
+        </div>
+        <div class="row">
+          <p class="card-text textContainer">
+            {{ instituto.descipcion }}
+          </p>
+        </div>
+        <div
+          class="row py-1 d-flex justify-content-center align-items-center align-content-center"
+        >
+          <div class="container">
+            <button
+              (click)="verDetalle(instituto)"
+              [routerLink]="['/detalles']"
+              class="btnfos btnfos-1 text-decoration-none"
+            >
+              <svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+              </svg>
+              Ver Detalle
+            </button>
+          </div>
         </div>
       </div>
     </div>
+
     }
   </div>
 </section>
+
+<section class="buttons"></section>
