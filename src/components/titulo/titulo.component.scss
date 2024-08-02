@@ -3,6 +3,11 @@ span {
   margin: auto;
 }
 
+img {
+  width: 4%;
+  padding-right: 1em;
+}
+
 .containerTitulo {
   text-align: center;
   padding-top: 0.1%;
@@ -10,12 +15,74 @@ span {
   min-height: 1em;
 
   margin-bottom: 1em;
-
+  justify-content: center;
   display: flex;
-  height: 3em;
+  align-items: center;
+
   width: 100%;
 }
 
 .tituloText {
   font-size: 24px;
 }
+
+//#region Medias Query
+
+@media (min-width: 1025px) and (max-width: 1500px) {
+  img {
+    width: 4%;
+    padding-right: 0.3em;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  img {
+    width: 7%;
+    padding-right: 0.3em;
+  }
+}
+
+// Cuando la pantalla es menor a 700
+@media only screen and (max-width: 700px) {
+  img {
+    width: 10%;
+    padding-right: 0.3em;
+  }
+}
+
+@media only screen and (max-width: 344px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    max-width: 18em;
+    min-height: 20em;
+  }
+  .textContainer {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    height: 126px;
+  }
+}
+
+// /* Escritorio extra grande */
+// @media only screen and (min-width: 1200px) {
+// }
+// /* Escritorio grande */
+// @media only screen and (min-width: 992px) and (max-width: 1199px) {
+// }
+
+// /* Escritorio pequeño / tablet */
+// @media only screen and (min-width: 768px) and (max-width: 991px) {
+// }
+
+// /* Tablets y phablets */
+// @media only screen and (min-width: 576px) and (max-width: 767px) {
+// }
+
+// /* Teléfonos */
+// @media only screen and (max-width: 575px) {
+// }
+
+//#endregion Medias Query
