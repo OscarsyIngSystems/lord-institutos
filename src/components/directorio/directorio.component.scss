@@ -1,6 +1,7 @@
 .titulo {
   background-color: red;
 }
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -26,6 +27,25 @@
 
   transition: background-color 0.5s ease 0s;
   height: 20em;
+}
+
+.card::after {
+  content: attr(id);
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  align-content: center;
+  float: center;
+  margin: auto;
+  vertical-align: center;
+  font-size: 15px;
+  border-radius: 50%;
+  background-color: #851848;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -15px;
+  left: 95%;
 }
 
 .text-bold {
@@ -119,10 +139,35 @@ button:hover {
 
 //#region Medias Query
 
+@media (min-width: 900px) and (max-width: 1400px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 // Cuando la pantalla es menor a 900
 @media only screen and (max-width: 900px) {
   .wrapper {
     grid-template-columns: 1fr;
+  }
+  .card {
+    max-width: 20em;
+    min-height: 20em;
+  }
+  .textContainer {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    height: 126px;
+  }
+}
+
+@media (min-width: 600px) {
+  .btnfos:nth-of-type(even) {
+    margin-right: 2.5em;
+  }
+  .btnfos:nth-of-type(5) {
+    margin-right: 0;
   }
 }
 
@@ -134,12 +179,20 @@ button:hover {
     margin-right: 0;
   }
 }
-@media (min-width: 600px) {
-  .btnfos:nth-of-type(even) {
-    margin-right: 2.5em;
+
+@media only screen and (max-width: 344px) {
+  .wrapper {
+    grid-template-columns: 1fr;
   }
-  .btnfos:nth-of-type(5) {
-    margin-right: 0;
+  .card {
+    max-width: 18em;
+    min-height: 20em;
+  }
+  .textContainer {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    height: 126px;
   }
 }
 

@@ -7,10 +7,42 @@
   padding: 1em;
 }
 
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: attr(id);
+  color: white;
+  text-align: center;
+  align-content: center;
+  float: center;
+  margin: auto;
+  vertical-align: center;
+  font-size: 15px;
+  border-radius: 50%;
+  background-color: #851848;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+
+  top: 5px;
+  left: -32px;
+}
+
 .mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 45%;
   height: 45%;
   margin: 1.5em;
+}
+
+.contenedorPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .datos {

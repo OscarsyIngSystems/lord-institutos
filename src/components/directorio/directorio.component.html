@@ -2,7 +2,10 @@
   <div class="wrapper">
     @for (instituto of institutos; track $index) {
 
-    <div class="contener card animate__animated animate__pulse">
+    <div
+      id="{{ instituto.id }}"
+      class="contener card animate__animated animate__pulse"
+    >
       <div class="row d-flex justify-content-center h-100 align-items-center">
         <div class="row">
           <h5 class="card-title text-center text-bold">
