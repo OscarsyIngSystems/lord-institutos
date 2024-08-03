@@ -1,5 +1,5 @@
 span {
-  color: white;
+  color: #851848;
   margin: auto;
 }
 
@@ -8,13 +8,17 @@ img {
   padding-right: 1em;
 }
 
+.divisor {
+  border-bottom: solid 0.3em #851848;
+  margin-bottom: 1.5em;
+}
+
 .containerTitulo {
   text-align: center;
   padding-top: 0.1%;
-  background-color: #851848;
+  background-color: white;
   min-height: 1em;
 
-  margin-bottom: 1em;
   justify-content: center;
   display: flex;
   align-items: center;
