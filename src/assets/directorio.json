@@ -186,6 +186,17 @@
       ],
       "correo": "contacto@consejociudadanomx.org",
       "proceso": "* Llamar para solicitar cita."
+    },
+    {
+      "id": 17,
+      "nombre": "UMCAP Hospital de Psiquiatría Morelos IMSS",
+      "descipcion": "Servicios: Terapia Psicológica, Hospitalización Psiquiátrica, Terapia Ocupacional, Psicoterapia de Grupo, Consulta de Urgencias, Electroconvulsoterapia, Rehabilitación Psicosocial, Terapia Familiar, Terapia de Pareja, Tratamiento Farmacológico, Consulta Externa, Evaluación Neuropsicológica, Intervención en Crisis, Talleres Terapéuticos",
+      "direccion": [
+        "DM Nacional, San Pedro el Chico, Gustavo A. Madero, 07450 Ciudad de México, CDMX"
+      ],
+      "imagen": "imagen2.jpg",
+      "contacto": "55 5781 7561",
+      "proceso": "* Llamar para solicitar cita, acudir precencialmente con carnet del IMSS, llevar oficio de canalizacion proporcionado por orientacion juvenil."
     }
   ]
 }
