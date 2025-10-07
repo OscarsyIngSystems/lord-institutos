@@ -91,19 +91,9 @@
       "contacto": "55 5597 9759",
       "proceso": "* Llamar para solicitar cita."
     },
+
     {
       "id": 9,
-      "nombre": "Centro Comunitario de Salud Mental y Adicciones Cuauhtémoc (CECOSAMA Cuauhtémoc)",
-      "descipcion": "Control de adicciones",
-      "direccion": [
-        "C. Dr. Enrique González Martínez 131, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX"
-      ],
-      "imagen": "imagen2.jpg",
-      "contacto": "5062 1600 ext. 50212",
-      "proceso": "* Llamar para solicitar cita."
-    },
-    {
-      "id": 10,
       "nombre": "Clínica de la ansiedad y salud mental",
       "descipcion": "Ansiedad y Psicología",
       "direccion": [
@@ -114,7 +104,7 @@
       "proceso": "* Llamar para solicitar cita."
     },
     {
-      "id": 11,
+      "id": 10,
       "nombre": "CEMEPI Terapias Psicológicas Sede Lindavista",
       "descipcion": "Atención Psicológica",
       "direccion": [
@@ -125,7 +115,7 @@
       "proceso": "* Llamar para solicitar cita."
     },
     {
-      "id": 12,
+      "id": 11,
       "nombre": "Centro De Tanatología Y Terapia De Duelo S.C.",
       "descipcion": "Tanatología y Atención Psicológica",
       "direccion": [
@@ -136,7 +126,7 @@
       "proceso": "* Llamar para solicitar cita."
     },
     {
-      "id": 13,
+      "id": 12,
       "nombre": "Clínica Broa- Especialistas en ansiedad y depresión",
       "descipcion": "Ansiedad y Depresión",
       "direccion": [
@@ -147,7 +137,7 @@
       "proceso": "* Llamar para solicitar cita."
     },
     {
-      "id": 14,
+      "id": 13,
       "nombre": "ADIVAC",
       "descipcion": "Violencia sexual",
       "direccion": [
@@ -159,7 +149,7 @@
       "proceso": "* Llamar para solicitar cita."
     },
     {
-      "id": 15,
+      "id": 14,
       "nombre": "Asociación Mexicana de Suicidología",
       "descipcion": "Atención psicológica contra el suicidio",
       "direccion": ["En línea"],
@@ -169,7 +159,7 @@
       "proceso": "* Llamar para solicitar cita."
     },
     {
-      "id": 16,
+      "id": 15,
       "nombre": "Línea Nacional Diversidad Segura",
       "descipcion": "El Consejo Ciudadano ofrece apoyo psicológico y jurídico a la comunidad LGBTTTI+ en toda la república. Dará atención psicológica, prevención del suicidio, terapias a distancia, orientación jurídica ante discriminación o trámites legales.",
       "direccion": [
