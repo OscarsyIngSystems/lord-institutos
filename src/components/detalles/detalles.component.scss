@@ -206,6 +206,24 @@ button {
 
     height: 126px;
   }
+
+  h2::after {
+    content: attr(id);
+    color: white;
+    text-align: center;
+    align-content: center;
+    float: center;
+    margin: auto;
+    vertical-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #851848;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    left: calc(100% - 50%);
+  }
 }
 
 // /* Escritorio extra grande */

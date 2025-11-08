@@ -37,7 +37,7 @@ export class DirectorioComponent implements OnInit {
         window.scrollTo({
           top: this.position.y,
           left: this.position.x,
-          behavior: 'auto' // 'smooth' para animación suave
+          behavior: 'smooth' // 'smooth' para animación suave
         });
         console.log('Scroll position restored');
       }, 100);
